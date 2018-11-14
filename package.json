@@ -1,0 +1,30 @@
+{
+  "name": "bootcamp-tennis-scores",
+  "version": "1.0.0",
+  "description": "Homework for Avid internal bootcamp.",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"tsc -w\" \"nodemon bin/index.js\"",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Miłosz Szewczyk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.7",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "testRegex": "\\.spec\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  }
+}
