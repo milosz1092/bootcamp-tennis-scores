@@ -1,6 +1,6 @@
 import ScoreBoard from './ScoreBoard';
 
-const board = new ScoreBoard();
+const board = new ScoreBoard('Test');
 
 describe('ScoreBoard', () => {
     describe('getTextForResult', () => {
