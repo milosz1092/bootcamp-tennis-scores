@@ -1,4 +1,8 @@
-# How to run
+## Tennis Match Scoreboard
+
+Using tennis terminology for displaying match score.
+
+## How to run
 
 You have to install `concurrently` and `nodemon` globally before use start script.
 
